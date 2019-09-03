@@ -1,4 +1,4 @@
-module Main exposing (Html, main)
+module Main exposing (main)
 
 import Html exposing (text)
 
@@ -8,9 +8,6 @@ xxx =
     11
 
 
-
 main : Html msg
-
-
 main =
     "tester " ++ String.fromInt xxx |> text
