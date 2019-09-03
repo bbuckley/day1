@@ -12,6 +12,5 @@ main : Html msg
 main =
     div []
         [ p [] [ "n is " ++ String.fromInt n |> text ]
-        , p [] [ String.concat (List.repeat n "x") |> text ]
-        , p [] [ List.repeat n "." |> String.concat |> text ]
+        , p [] [ List.repeat n "x" |> String.concat |> text ]
         ]
