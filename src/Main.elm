@@ -5,7 +5,7 @@ import Html exposing (Html, button, div, p, text)
 
 n : Int
 n =
-    11
+    9
 
 
 main : Html msg
